@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background: #3AA6B9;
+  padding: 15px;
+  text-decoration: none;
+  color: #e5e5e5;
+
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  width: 100px;
+}
+
+.search-bar{
+  display: flex;
+  flex: 1;
+}
+
+.nav-search-category{
+  display: flex;
+  flex-direction: row;
+  background: #FF9EAA;
+  color: gray;
+  gap: 5px;
+  font-size: 12px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px 0 0 4px;
+}
+
+.nav-search-category img{
+  height:12px;
+}
+
+nav input{
+  background: #FFD0D0;
+  color: gray;
+  padding-left: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.nav-search-icon{
+  max-width: 41px;
+  padding: 8px;
+  background: #F9F9E0;
+  border-radius: 0 4px 4px 0;
+}
+.location{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0 15px 0 25px;
+  margin-left: 60px;
+  
+}
+
+.location img{
+  height: 20px;
+}
+
+.deliver-location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.deliver-location p{
+  font-size: .8rem;
+}
+
+.cart{
+  display: flex;
+  padding: 0 15px 0 15px;
+  margin-left: 60px;
+}
+.cart-name{
+  font-weight: 600;
+  padding: 23px 0 0 0;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+
+
+.slider{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.slider img{
+  width: 100%;
+  display: none;
+
+}
+
+img.displaySlide{
+  display: block;
+  transition: 1s;
+}
+
+.block{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  
+}
+
+.container{
+  max-width: 24%;
+  margin: 5px;
+  background: #3aa6b9;
+  padding: 15px;
+  min-height: 250px;
+  z-index: 1;
+  position: relative;
+ 
+}
+
+.container p{
+  height: 50px;
+}
+
+.container img{
+  width: 100%;
+  display: block;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px 5px 15px;
+  background: #FFD0D0;
+  border-radius: 8px;
+  
+}
+.price img{
+  width: 40px;
+}
+
+.header-box{
+  margin-top: -20vw;
+}
+
+.container h1{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #F9F9E0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
